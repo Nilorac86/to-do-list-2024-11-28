@@ -7,24 +7,31 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-</head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap" rel="stylesheet">
 <body>
 
     <main>
             
         <section class="todo-container">
-            <h1>Todo list!</h1>
-            <div>
+            
+           <div>
+                <h1>Todo list!</h1>
                 <form class="form">
-                    <input type="text" id="inputTodo" 
+                    <input type="text" id="todoInput" 
                     placeholder="Enter what to do"/> 
 
-                    <input type ="text" id="inputAuthor" 
-                    placeholder="Author-name"/>
+                    <input type ="text" id="authorInput" 
+                    placeholder="Author name"/>
 
-                    <button type="submit">Confirm</button>
+                    <button type="submit">Add to do</button>
                 </form>
+
+                <div class="todo-list-container">
+                    <ul id="todoList"></ul>
+                </div>
             </div>
+            
         </section>
     </main>
     
