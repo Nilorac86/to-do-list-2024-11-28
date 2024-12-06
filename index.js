@@ -113,8 +113,8 @@ function moveTodoDown(index){
         
         saveTodo();
         renderTodos();
-    };
-}
+    }
+};
 
 
 
