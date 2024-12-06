@@ -6,7 +6,7 @@
     <title>To do list</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap" rel="stylesheet">
 <body>
@@ -15,8 +15,13 @@
             
         <section class="todo-container">
             
-           <div>
+           <div class="todo-list-box">
                 <h1>Todo list!</h1>
+
+                <div class="todo-list-container">
+                    <ul id="todoList"></ul>
+                </div>
+
                 <form class="form">
                     <input type="text" id="todoInput" 
                     placeholder="Enter what to do"/> 
@@ -27,9 +32,7 @@
                     <button type="submit">Add to do</button>
                 </form>
 
-                <div class="todo-list-container">
-                    <ul id="todoList"></ul>
-                </div>
+                
             </div>
             
         </section>
